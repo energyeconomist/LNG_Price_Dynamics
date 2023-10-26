@@ -7,19 +7,19 @@ Welcome to my GitHub portfolio, where I showcase the job market paper of my diss
 ## Table of Contents
 
 - [Research Puzzle](#research-puzzle) 🧩
-- [Data](#data) 📊
+- [Data Content and Sources](#data) 📊
 - [Methodology and Results](#methodology-and-results) 📈
 
 
 ### Research Puzzle 
 
-In my dissertation, I examined the dynamics of LNG spot prices in Asian and European markets, focusing on the factors that drive these prices. LNG long-term contracts are already linked to oil and hub-based pricing, making it an intriguing question to determine what factors influence LNG spot prices. To address this question, I collected data on LNG and natural gas long-term contract prices, crude oil and coal prices, charter rates, heating and cooling degree days, and industrial production indices. I then analyzed their effects on LNG spot prices, using weekly time-series data spanning from the beginning of 2010 through the end of 2015 for the largest LNG market in the world (Japan), largest LNG trading hub in Europe (U.K.), and the world’s largest LNG re-exporting hub (Spain).
+In my dissertation, I examined the dynamics of LNG spot prices in Asian and European markets, focusing on the factors that drive these prices. LNG long-term contracts are already linked to oil and hub-based pricing, making it an intriguing question to determine what factors influence LNG spot prices. To address this question, I collected data on LNG and natural gas long-term contract prices, crude oil and coal prices, charter rates, heating and cooling degree days, and industrial production indices. I then analyzed their effects on LNG spot prices, using weekly time-series data spanning from the beginning of 2010 through the end of 2015 for the largest LNG market in the world (Japan), the largest LNG trading hub in Europe (U.K.), and the world’s largest LNG re-exporting hub (Spain).
 
-### Data 
+### Data Content and Sources
 
 To investigate my research question, I employed a non-experimental design with a weekly time-series dataset covering nearly six years. The unit of analysis is the price level, and I have 304 observations (weeks). Key data sources include:
 
-- **NBP Price**: The front-month forward price of LNG delivered ex-ship (DES) to the NBP hub in the UK, which also represents the spot price for Northwestern European markets. In 2010, trading volume of the United Kingdom’s NBP hub was larger than the sum of entire Continental European hubs. 
+- **NBP Price**: The front-month forward price of LNG delivered ex-ship (DES) to the NBP hub in the UK, which also represents the spot price for Northwestern European markets. In 2010, the trading volume of the United Kingdom’s NBP hub was larger than the sum of entire Continental European hubs. 
 - **Spain Spot Price**: Represents Southwest Europe and is calculated as the average of DES front-month and second-month ahead forward prices of LNG delivered to Spain.
 - **German Border Price (GBP)**: Represents the contract price for Northwest Europe. It is an average of assessed forward curves of major long-term contracts to the German market and the average price paid for natural gas sent from Russia, the Netherlands, and Norway to Germany through pipelines.
 - **Contract Price for Japan**: The forward curve of the average price of DES LNG imported to Japan under long-term contracts.
@@ -44,4 +44,4 @@ My test results revealed that LNG spot prices in Japan and Spain were primarily 
 
 ---
 
-Thank you for visiting my GitHub portfolio and exploring my research on LNG spot prices. If you have any questions or would like to discuss this project further, please feel free to reach out to me.
+Thank you for visiting my GitHub portfolio and exploring my research on LNG spot prices. You can always access my dissertation at [this](https://utd-ir.tdl.org/items/6227a028-0d71-41ee-ac7b-fb410ca9042b) link. If you have any questions or would like to discuss this project further, please feel free to reach out to me.
