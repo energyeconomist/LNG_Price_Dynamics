@@ -30,7 +30,7 @@ LNG spot and contract prices, charter rates, and NBP natural gas storage levels 
 - **Coal Price**: Weekly Qinhuangdao coal prices are used as the representative coal price for Asian markets and ARA (Antwerp-Rotterdam-Amsterdam) coal price stands for the coal price in Europe.  Acquired from S&P Global Platts, the leading energy information provider - my previous employer.
 - **Degree Days Data**: Cooling and heating degree days data are collected from wunderground.com, a partner company of The Weather Channel.
 
-To ensure the completeness of the dataset, linear interpolation was applied to address missing values in some data series.
+I am very grateful to ICIS and S&P Global Platts for providing me with the data sets that made this project possible. While I will not share their raw data due to it being proprietary, I will display it in graphs. I apply linear interpolation to address missing values in some data series and ensure the completeness of the dataset.
 
 ### Methodology and Results 
 
