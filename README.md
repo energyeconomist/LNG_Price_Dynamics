@@ -19,9 +19,9 @@ In my dissertation, I examined the dynamics of LNG spot prices in Asian and Euro
 
 To investigate my research question, I employed a non-experimental design with a weekly time-series dataset covering nearly six years. The unit of analysis is the price level, and I have 304 observations (weeks). Key data sources include:
 
-- **NBP Price**: The front-month forward price of LNG delivered ex-ship (DES) to the NBP hub in the UK, which also represents the spot price for Northwestern European markets. In 2010, the trading volume of the United Kingdom’s NBP hub was larger than the sum of entire Continental European hubs. 
+- **NBP Price**: The front-month forward price of LNG delivered ex-ship (DES) to the NBP hub in the UK, which also represents the spot price for Northwestern European markets. In 2010, the trading volume of the United Kingdom’s NBP hub was larger than the sum of the entire Continental European hubs. 
 - **Spain Spot Price**: Represents Southwest Europe and is calculated as the average of DES front-month and second-month ahead forward prices of LNG delivered to Spain.
-- **German Border Price (GBP)**: Represents the contract price for Northwest Europe. It is an average of assessed forward curves of major long-term contracts to the German market and the average price paid for natural gas sent from Russia, the Netherlands, and Norway to Germany through pipelines.
+- **German Border Contract Price (NWE)**: Represents the contract price for Northwest Europe. It is an average of assessed forward curves of major long-term contracts to the German market and the average price paid for natural gas sent from Russia, the Netherlands, and Norway to Germany through pipelines.
 - **Contract Price for Japan**: The forward curve of the average price of DES LNG imported to Japan under long-term contracts.
 - **Gas Storage Europe (GSE)**: Weekly natural gas storage ratio data for NBP hub.
 LNG spot and contract prices, charter rates, and NBP natural gas storage levels data are provided by ICIS.
@@ -36,11 +36,11 @@ I am very grateful to ICIS and S&P Global Platts for providing me with the data 
 
 In this paper, I employed an Error Correction Model (ECM) to explore the dynamics that drive LNG spot prices in world markets. Prior to building the ECM, I conducted structural break, unit root, and cointegration tests to determine the existence of stable long-run relationships between the variables. I also ran causality tests to understand the direction of causality between the series.
 
-If the time series are both integrated of the same order and cointegrated, then one can define an error correction model where the changes in the dependent variable is described by the changes both in independent variables and the dependent variable as well as an error correction term. Error correction term, α, shows the deviations from the long-run cointegration relationship for the cointegrated variables and the absolute value of α indicates how fast equilibrium is restored after that deviation. 
+If the time series are both integrated of the same order and cointegrated, then one can define an error correction model where the changes in the dependent variable are described by the changes both in independent variables and the dependent variable as well as an error correction term. Error correction term, α, shows the deviations from the long-run cointegration relationship for the cointegrated variables and the absolute value of α indicates how fast equilibrium is restored after that deviation. 
 
 In my error correction model, I established causality from LNG contract prices to LNG spot prices if the coefficients of the error correction term and contract price were jointly significant. In such kind of case, a shock that drives the spot price out of its long-term relationship with contract prices can be corrected at a weekly rate of α, meaning that the spot price adjusts α% weekly to return to its long-run relationship with contract prices. 
 
-My test results revealed that LNG spot prices in Japan and Spain were primarily driven by the NBP spot prices and the NBP spot prices were driven by crude oil prices. My results suggested that oil and (liquefied) natural gas prices have not decoupled and oil prices continued to drive LNG spot prices in spite of improving deregulation in Europe. Finally, even though coal is seen as a substitute for the natural gas in electricity generation, I found no cointegration between LNG spot and coal prices in any market due to mainly declining coal demand.
+My test results revealed that LNG spot prices in Japan and Spain were primarily driven by the NBP spot prices and the NBP spot prices were driven by crude oil prices. My results suggested that oil and (liquefied) natural gas prices have not decoupled and oil prices continued to drive LNG spot prices in spite of improving deregulation in Europe. Finally, even though coal is seen as a substitute for natural gas in electricity generation, I found no cointegration between LNG spot and coal prices in any market due to mainly declining coal demand.
 
 ---
 
