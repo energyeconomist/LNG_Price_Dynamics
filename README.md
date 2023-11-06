@@ -1,6 +1,6 @@
 # What Drives LNG Spot Prices?
 
-Welcome to my GitHub portfolio, where I showcase the job market paper of my dissertation, "What Drives LNG Spot Prices?" This project represents my efforts to replicate the findings from my dissertation using Python. In my dissertation, I analyzed the dynamics and volatility of LNG spot prices in Asian and European markets. While working on my dissertation, I utilized Eviews, a prominent econometric and forecasting software. Here, I reproduce my research findings using Python. 
+Welcome to my GitHub portfolio, where I showcase the job market paper of my dissertation, "What Drives LNG Spot Prices?" In my dissertation, I analyzed the dynamics and volatility of LNG spot prices in Asian and European markets. While working on my dissertation, I utilized Eviews, a prominent econometric and forecasting software. Here, I reproduce my research findings using Python. 
 
 ![lngvessel](https://github.com/energyeconomist/LNG_price_dynamics/assets/11807759/dedc236a-9868-406d-a36e-600765d866ed)
 
